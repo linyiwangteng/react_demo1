@@ -1,6 +1,7 @@
 # react_demo1
 this is a simple react study demo
 
+#初始化git已经提交
 git init
 git add *
 git commit -m 'first commit'
