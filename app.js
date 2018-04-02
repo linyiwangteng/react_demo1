@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import printMe from './print.js'
 
 document.getElementById('app').innerHTML = 'hello world  webpack test 123';
@@ -42,3 +43,11 @@ ceshi().then(function(param){
       })
   }
 
+=======
+// document.getElementById('app').innerHTML = 'hello world  webpack test';
+
+ReactDOM.render(
+  <h1>Hello, world!</h1>,
+  document.getElementById('root')
+);
+>>>>>>> Stashed changes
