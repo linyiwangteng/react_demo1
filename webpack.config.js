@@ -9,13 +9,13 @@ module.exports = {
     devtool:'inline-source-map',
     // entry:__dirname+'/app.js',
     entry:{
-        'main_file':'./app.js',
+        'main_file':['babel-polyfill','./app.js'],
         'other_file':'./other.js'
     },
 
     output:{
         path:__dirname+'/dist',
-        filename:'[name].bundle[chunkhash].js',
+        filename:'[name].bundle[hash].js',
         publicPath:'/'
         
     },
